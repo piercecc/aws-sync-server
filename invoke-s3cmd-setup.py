@@ -10,5 +10,5 @@ def call_s3cmd(command):
 
 if __name__ == "__main__":
     # Example command to list buckets
-    s3_command = "s3cmd -configure"
+    s3_command = "s3cmd --configure"
     call_s3cmd(s3_command)
