@@ -9,6 +9,6 @@ def call_s3cmd(command):
         print("An error occurred:", e.stderr)
 
 if __name__ == "__main__":
-    # Example command to list buckets
-    s3_command = "s3cmd --configure"
+    # Command to invoke S3CMD Setup
+    s3_command = "sudo s3cmd --configure"
     call_s3cmd(s3_command)

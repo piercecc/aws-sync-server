@@ -23,4 +23,4 @@ if __name__ == "__main__":
 
     s3_command = "s3fs"
     call_s3_secrets(s3_secrets_command)
-    call_s3fs(s3_command)  
+    call_s3fs(s3_command)
